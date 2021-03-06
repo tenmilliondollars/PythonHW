@@ -1,4 +1,5 @@
 a=input('Введите целые неотрицательные числа:\n')
+a=a.strip()
 a=a.split(" ")
 for i in range(len(a)):
     a[i]=int(a[i])
